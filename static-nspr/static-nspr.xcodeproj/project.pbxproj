@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F4168C177CC3F4004A36E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F4168B177CC3F4004A36E8 /* Foundation.framework */; };
+		47F41691177CC3F4004A36E8 /* static_nspr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47F41690177CC3F4004A36E8 /* static_nspr.h */; };
+		47F41693177CC3F4004A36E8 /* static_nspr.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F41692177CC3F4004A36E8 /* static_nspr.m */; };
+		47F4169C177CC3F4004A36E8 /* strcpy.c in Sources */ = {isa = PBXBuildFile; fileRef = 47F4169B177CC3F4004A36E8 /* strcpy.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47F41686177CC3F4004A36E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				47F41691177CC3F4004A36E8 /* static_nspr.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		47F41688177CC3F4004A36E8 /* libstatic-nspr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libstatic-nspr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F4168B177CC3F4004A36E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47F4168F177CC3F4004A36E8 /* static-nspr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "static-nspr-Prefix.pch"; sourceTree = "<group>"; };
+		47F41690177CC3F4004A36E8 /* static_nspr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = static_nspr.h; sourceTree = "<group>"; };
+		47F41692177CC3F4004A36E8 /* static_nspr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = static_nspr.m; sourceTree = "<group>"; };
+		47F4169B177CC3F4004A36E8 /* strcpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strcpy.c; sourceTree = "<group>"; };
+		47F4169E177CC3F4004A36E8 /* strcpy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strcpy.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F41685177CC3F4004A36E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F4168C177CC3F4004A36E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47F4167D177CC3F4004A36E8 = {
+			isa = PBXGroup;
+			children = (
+				47F4168D177CC3F4004A36E8 /* static-nspr */,
+				47F4168A177CC3F4004A36E8 /* Frameworks */,
+				47F41689177CC3F4004A36E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47F41689177CC3F4004A36E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F41688177CC3F4004A36E8 /* libstatic-nspr.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F4168A177CC3F4004A36E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47F4168B177CC3F4004A36E8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47F4168D177CC3F4004A36E8 /* static-nspr */ = {
+			isa = PBXGroup;
+			children = (
+				47F4169D177CC3F4004A36E8 /* c Files */,
+				47F41690177CC3F4004A36E8 /* static_nspr.h */,
+				47F41692177CC3F4004A36E8 /* static_nspr.m */,
+				47F4168E177CC3F4004A36E8 /* Supporting Files */,
+			);
+			path = "static-nspr";
+			sourceTree = "<group>";
+		};
+		47F4168E177CC3F4004A36E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F4168F177CC3F4004A36E8 /* static-nspr-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47F4169D177CC3F4004A36E8 /* c Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F4169B177CC3F4004A36E8 /* strcpy.c */,
+				47F4169E177CC3F4004A36E8 /* strcpy.h */,
+			);
+			name = "c Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F41687177CC3F4004A36E8 /* static-nspr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F41696177CC3F4004A36E8 /* Build configuration list for PBXNativeTarget "static-nspr" */;
+			buildPhases = (
+				47F41684177CC3F4004A36E8 /* Sources */,
+				47F41685177CC3F4004A36E8 /* Frameworks */,
+				47F41686177CC3F4004A36E8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "static-nspr";
+			productName = "static-nspr";
+			productReference = 47F41688177CC3F4004A36E8 /* libstatic-nspr.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F4167F177CC3F4004A36E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chang Jun";
+			};
+			buildConfigurationList = 47F41682177CC3F4004A36E8 /* Build configuration list for PBXProject "static-nspr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47F4167D177CC3F4004A36E8;
+			productRefGroup = 47F41689177CC3F4004A36E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F41687177CC3F4004A36E8 /* static-nspr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F41684177CC3F4004A36E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F41693177CC3F4004A36E8 /* static_nspr.m in Sources */,
+				47F4169C177CC3F4004A36E8 /* strcpy.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47F41694177CC3F4004A36E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47F41695177CC3F4004A36E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47F41697177CC3F4004A36E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/static_nspr.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "static-nspr/static-nspr-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47F41698177CC3F4004A36E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/static_nspr.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "static-nspr/static-nspr-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F41682177CC3F4004A36E8 /* Build configuration list for PBXProject "static-nspr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F41694177CC3F4004A36E8 /* Debug */,
+				47F41695177CC3F4004A36E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F41696177CC3F4004A36E8 /* Build configuration list for PBXNativeTarget "static-nspr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F41697177CC3F4004A36E8 /* Debug */,
+				47F41698177CC3F4004A36E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F4167F177CC3F4004A36E8 /* Project object */;
+}
