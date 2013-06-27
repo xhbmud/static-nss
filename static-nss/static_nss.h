@@ -10,4 +10,6 @@
 
 @interface static_nss : NSObject
 
+-(int) nss_nspr_log:(const char *)nssInfo;
+
 @end

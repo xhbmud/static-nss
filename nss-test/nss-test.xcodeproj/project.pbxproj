@@ -19,6 +19,7 @@
 		47F41671177CC3F4004A36E8 /* LetoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F41670177CC3F4004A36E8 /* LetoneViewController.m */; };
 		47F41674177CC3F4004A36E8 /* LetoneViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F41672177CC3F4004A36E8 /* LetoneViewController_iPhone.xib */; };
 		47F41677177CC3F4004A36E8 /* LetoneViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F41675177CC3F4004A36E8 /* LetoneViewController_iPad.xib */; };
+		47F416DA177CC3F4004A36E8 /* libstatic-nss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F416D9177CC3F4004A36E8 /* libstatic-nss.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		47F41670177CC3F4004A36E8 /* LetoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetoneViewController.m; sourceTree = "<group>"; };
 		47F41673177CC3F4004A36E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LetoneViewController_iPhone.xib; sourceTree = "<group>"; };
 		47F41676177CC3F4004A36E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LetoneViewController_iPad.xib; sourceTree = "<group>"; };
+		47F416D9177CC3F4004A36E8 /* libstatic-nss.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libstatic-nss.a"; path = "../build/Release-iphoneos/libstatic-nss.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F416DA177CC3F4004A36E8 /* libstatic-nss.a in Frameworks */,
 				47F41658177CC3F4004A36E8 /* UIKit.framework in Frameworks */,
 				47F4165A177CC3F4004A36E8 /* Foundation.framework in Frameworks */,
 				47F4165C177CC3F4004A36E8 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +61,7 @@
 		47F41648177CC3F4004A36E8 = {
 			isa = PBXGroup;
 			children = (
+				47F416D9177CC3F4004A36E8 /* libstatic-nss.a */,
 				47F4165D177CC3F4004A36E8 /* nss-test */,
 				47F41656177CC3F4004A36E8 /* Frameworks */,
 				47F41654177CC3F4004A36E8 /* Products */,
@@ -235,7 +239,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -255,7 +259,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -20,6 +20,34 @@
                ReferencedContainer = "container:nss-test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "47F41636177CC3F4004A36E8"
+               BuildableName = "libstatic-nss.a"
+               BlueprintName = "static-nss"
+               ReferencedContainer = "container:../static-nss.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "47F41687177CC3F4004A36E8"
+               BuildableName = "libstatic-nspr.a"
+               BlueprintName = "static-nspr"
+               ReferencedContainer = "container:../static-nspr/static-nspr.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

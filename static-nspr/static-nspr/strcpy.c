@@ -7,5 +7,11 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 
-__declspec(dllexport) a();
+char* PL_strcpy( char* dest, const char* src )
+{
+    if( ((char *)0 == dest ) || ((const char *)0 == src) )  return (char *)0;
+    
+    return strcpy(dest, src);
+}

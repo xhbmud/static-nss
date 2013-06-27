@@ -34,6 +34,7 @@
 		47F41692177CC3F4004A36E8 /* static_nspr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = static_nspr.m; sourceTree = "<group>"; };
 		47F4169B177CC3F4004A36E8 /* strcpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strcpy.c; sourceTree = "<group>"; };
 		47F4169E177CC3F4004A36E8 /* strcpy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strcpy.h; sourceTree = "<group>"; };
+		47F4169F177CC3F4004A36E8 /* global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 		47F4168D177CC3F4004A36E8 /* static-nspr */ = {
 			isa = PBXGroup;
 			children = (
+				47F4169F177CC3F4004A36E8 /* global.h */,
 				47F4169D177CC3F4004A36E8 /* c Files */,
 				47F41690177CC3F4004A36E8 /* static_nspr.h */,
 				47F41692177CC3F4004A36E8 /* static_nspr.m */,
@@ -180,7 +182,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -198,7 +200,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

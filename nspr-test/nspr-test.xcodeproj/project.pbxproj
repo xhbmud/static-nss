@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F416B0177CC3F4004A36E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F416AF177CC3F4004A36E8 /* UIKit.framework */; };
+		47F416B2177CC3F4004A36E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F416B1177CC3F4004A36E8 /* Foundation.framework */; };
+		47F416B4177CC3F4004A36E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F416B3177CC3F4004A36E8 /* CoreGraphics.framework */; };
+		47F416BA177CC3F4004A36E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47F416B8177CC3F4004A36E8 /* InfoPlist.strings */; };
+		47F416BC177CC3F4004A36E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F416BB177CC3F4004A36E8 /* main.m */; };
+		47F416C0177CC3F4004A36E8 /* LetoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F416BF177CC3F4004A36E8 /* LetoneAppDelegate.m */; };
+		47F416C2177CC3F4004A36E8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F416C1177CC3F4004A36E8 /* Default.png */; };
+		47F416C4177CC3F4004A36E8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F416C3177CC3F4004A36E8 /* Default@2x.png */; };
+		47F416C6177CC3F4004A36E8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F416C5177CC3F4004A36E8 /* Default-568h@2x.png */; };
+		47F416C9177CC3F4004A36E8 /* LetoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F416C8177CC3F4004A36E8 /* LetoneViewController.m */; };
+		47F416CC177CC3F4004A36E8 /* LetoneViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F416CA177CC3F4004A36E8 /* LetoneViewController_iPhone.xib */; };
+		47F416CF177CC3F4004A36E8 /* LetoneViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F416CD177CC3F4004A36E8 /* LetoneViewController_iPad.xib */; };
+		47F416D6177CC3F4004A36E8 /* libstatic-nspr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F416D5177CC3F4004A36E8 /* libstatic-nspr.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47F416AB177CC3F4004A36E8 /* nspr-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nspr-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F416AF177CC3F4004A36E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47F416B1177CC3F4004A36E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47F416B3177CC3F4004A36E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47F416B7177CC3F4004A36E8 /* nspr-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nspr-test-Info.plist"; sourceTree = "<group>"; };
+		47F416B9177CC3F4004A36E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47F416BB177CC3F4004A36E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47F416BD177CC3F4004A36E8 /* nspr-test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nspr-test-Prefix.pch"; sourceTree = "<group>"; };
+		47F416BE177CC3F4004A36E8 /* LetoneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetoneAppDelegate.h; sourceTree = "<group>"; };
+		47F416BF177CC3F4004A36E8 /* LetoneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetoneAppDelegate.m; sourceTree = "<group>"; };
+		47F416C1177CC3F4004A36E8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		47F416C3177CC3F4004A36E8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		47F416C5177CC3F4004A36E8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		47F416C7177CC3F4004A36E8 /* LetoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetoneViewController.h; sourceTree = "<group>"; };
+		47F416C8177CC3F4004A36E8 /* LetoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetoneViewController.m; sourceTree = "<group>"; };
+		47F416CB177CC3F4004A36E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LetoneViewController_iPhone.xib; sourceTree = "<group>"; };
+		47F416CE177CC3F4004A36E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LetoneViewController_iPad.xib; sourceTree = "<group>"; };
+		47F416D5177CC3F4004A36E8 /* libstatic-nspr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libstatic-nspr.a"; path = "../../../../Xcode-Tmp/static-nss-ewaovjovmzrvrjdbykbkwsptrznp/Build/Products/Debug-iphoneos/libstatic-nspr.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F416A8177CC3F4004A36E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F416D6177CC3F4004A36E8 /* libstatic-nspr.a in Frameworks */,
+				47F416B0177CC3F4004A36E8 /* UIKit.framework in Frameworks */,
+				47F416B2177CC3F4004A36E8 /* Foundation.framework in Frameworks */,
+				47F416B4177CC3F4004A36E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47F416A0177CC3F4004A36E8 = {
+			isa = PBXGroup;
+			children = (
+				47F416D5177CC3F4004A36E8 /* libstatic-nspr.a */,
+				47F416B5177CC3F4004A36E8 /* nspr-test */,
+				47F416AE177CC3F4004A36E8 /* Frameworks */,
+				47F416AC177CC3F4004A36E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47F416AC177CC3F4004A36E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F416AB177CC3F4004A36E8 /* nspr-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F416AE177CC3F4004A36E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47F416AF177CC3F4004A36E8 /* UIKit.framework */,
+				47F416B1177CC3F4004A36E8 /* Foundation.framework */,
+				47F416B3177CC3F4004A36E8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47F416B5177CC3F4004A36E8 /* nspr-test */ = {
+			isa = PBXGroup;
+			children = (
+				47F416BE177CC3F4004A36E8 /* LetoneAppDelegate.h */,
+				47F416BF177CC3F4004A36E8 /* LetoneAppDelegate.m */,
+				47F416C7177CC3F4004A36E8 /* LetoneViewController.h */,
+				47F416C8177CC3F4004A36E8 /* LetoneViewController.m */,
+				47F416CA177CC3F4004A36E8 /* LetoneViewController_iPhone.xib */,
+				47F416CD177CC3F4004A36E8 /* LetoneViewController_iPad.xib */,
+				47F416B6177CC3F4004A36E8 /* Supporting Files */,
+			);
+			path = "nspr-test";
+			sourceTree = "<group>";
+		};
+		47F416B6177CC3F4004A36E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F416B7177CC3F4004A36E8 /* nspr-test-Info.plist */,
+				47F416B8177CC3F4004A36E8 /* InfoPlist.strings */,
+				47F416BB177CC3F4004A36E8 /* main.m */,
+				47F416BD177CC3F4004A36E8 /* nspr-test-Prefix.pch */,
+				47F416C1177CC3F4004A36E8 /* Default.png */,
+				47F416C3177CC3F4004A36E8 /* Default@2x.png */,
+				47F416C5177CC3F4004A36E8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F416AA177CC3F4004A36E8 /* nspr-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F416D2177CC3F4004A36E8 /* Build configuration list for PBXNativeTarget "nspr-test" */;
+			buildPhases = (
+				47F416A7177CC3F4004A36E8 /* Sources */,
+				47F416A8177CC3F4004A36E8 /* Frameworks */,
+				47F416A9177CC3F4004A36E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nspr-test";
+			productName = "nspr-test";
+			productReference = 47F416AB177CC3F4004A36E8 /* nspr-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F416A2177CC3F4004A36E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Letone;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chang Jun";
+			};
+			buildConfigurationList = 47F416A5177CC3F4004A36E8 /* Build configuration list for PBXProject "nspr-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47F416A0177CC3F4004A36E8;
+			productRefGroup = 47F416AC177CC3F4004A36E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F416AA177CC3F4004A36E8 /* nspr-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F416A9177CC3F4004A36E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F416BA177CC3F4004A36E8 /* InfoPlist.strings in Resources */,
+				47F416C2177CC3F4004A36E8 /* Default.png in Resources */,
+				47F416C4177CC3F4004A36E8 /* Default@2x.png in Resources */,
+				47F416C6177CC3F4004A36E8 /* Default-568h@2x.png in Resources */,
+				47F416CC177CC3F4004A36E8 /* LetoneViewController_iPhone.xib in Resources */,
+				47F416CF177CC3F4004A36E8 /* LetoneViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F416A7177CC3F4004A36E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F416BC177CC3F4004A36E8 /* main.m in Sources */,
+				47F416C0177CC3F4004A36E8 /* LetoneAppDelegate.m in Sources */,
+				47F416C9177CC3F4004A36E8 /* LetoneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47F416B8177CC3F4004A36E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F416B9177CC3F4004A36E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47F416CA177CC3F4004A36E8 /* LetoneViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F416CB177CC3F4004A36E8 /* en */,
+			);
+			name = LetoneViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		47F416CD177CC3F4004A36E8 /* LetoneViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F416CE177CC3F4004A36E8 /* en */,
+			);
+			name = LetoneViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47F416D0177CC3F4004A36E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47F416D1177CC3F4004A36E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47F416D3177CC3F4004A36E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nspr-test/nspr-test-Prefix.pch";
+				INFOPLIST_FILE = "nspr-test/nspr-test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Xcode-Tmp/static-nss-ewaovjovmzrvrjdbykbkwsptrznp/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47F416D4177CC3F4004A36E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nspr-test/nspr-test-Prefix.pch";
+				INFOPLIST_FILE = "nspr-test/nspr-test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Xcode-Tmp/static-nss-ewaovjovmzrvrjdbykbkwsptrznp/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F416A5177CC3F4004A36E8 /* Build configuration list for PBXProject "nspr-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F416D0177CC3F4004A36E8 /* Debug */,
+				47F416D1177CC3F4004A36E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F416D2177CC3F4004A36E8 /* Build configuration list for PBXNativeTarget "nspr-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F416D3177CC3F4004A36E8 /* Debug */,
+				47F416D4177CC3F4004A36E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F416A2177CC3F4004A36E8 /* Project object */;
+}

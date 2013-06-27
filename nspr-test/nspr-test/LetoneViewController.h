@@ -1,6 +1,6 @@
 //
 //  LetoneViewController.h
-//  nss-test
+//  nspr-test
 //
 //  Created by Chang Jun on 13-6-27.
 //  Copyright (c) 2013年 Chang Jun. All rights reserved.
@@ -10,6 +10,6 @@
 
 @interface LetoneViewController : UIViewController
 
--(IBAction) nss_nspr_log_btn:(id)sender;
+-(IBAction) nspr_log_btn:(id)sender;
 
 @end

@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "global.h"
 
 @interface static_nspr : NSObject
+
+-(int) nspr_log:(const char*) logInfo;
 
 @end
