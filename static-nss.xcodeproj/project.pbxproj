@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47AF752E177DCD1600AAE813 /* libstatic-nspr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AF752D177DCD1600AAE813 /* libstatic-nspr.a */; };
 		47F4163B177CC3F4004A36E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F4163A177CC3F4004A36E8 /* Foundation.framework */; };
 		47F41640177CC3F4004A36E8 /* static_nss.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47F4163F177CC3F4004A36E8 /* static_nss.h */; };
 		47F41642177CC3F4004A36E8 /* static_nss.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F41641177CC3F4004A36E8 /* static_nss.m */; };
-		47F416D8177CC3F4004A36E8 /* libstatic-nspr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F416D7177CC3F4004A36E8 /* libstatic-nspr.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,12 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		47AF752D177DCD1600AAE813 /* libstatic-nspr.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libstatic-nspr.a"; path = "static-nspr/build/Release-iphoneos/libstatic-nspr.a"; sourceTree = "<group>"; };
 		47F41637177CC3F4004A36E8 /* libstatic-nss.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libstatic-nss.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F4163A177CC3F4004A36E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		47F4163E177CC3F4004A36E8 /* static-nss-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "static-nss-Prefix.pch"; sourceTree = "<group>"; };
 		47F4163F177CC3F4004A36E8 /* static_nss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = static_nss.h; sourceTree = "<group>"; };
 		47F41641177CC3F4004A36E8 /* static_nss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = static_nss.m; sourceTree = "<group>"; };
-		47F416D7177CC3F4004A36E8 /* libstatic-nspr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libstatic-nspr.a"; path = "../../../Xcode-Tmp/static-nss-ewaovjovmzrvrjdbykbkwsptrznp/Build/Products/Debug-iphoneos/libstatic-nspr.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47F416D8177CC3F4004A36E8 /* libstatic-nspr.a in Frameworks */,
+				47AF752E177DCD1600AAE813 /* libstatic-nspr.a in Frameworks */,
 				47F4163B177CC3F4004A36E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,7 @@
 		47F4162C177CC3F3004A36E8 = {
 			isa = PBXGroup;
 			children = (
-				47F416D7177CC3F4004A36E8 /* libstatic-nspr.a */,
+				47AF752D177DCD1600AAE813 /* libstatic-nspr.a */,
 				47F4163C177CC3F4004A36E8 /* static-nss */,
 				47F41639177CC3F4004A36E8 /* Frameworks */,
 				47F41638177CC3F4004A36E8 /* Products */,
@@ -245,6 +245,7 @@
 				47F41647177CC3F4004A36E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

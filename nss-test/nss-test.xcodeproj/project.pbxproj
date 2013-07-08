@@ -40,7 +40,7 @@
 		47F41670177CC3F4004A36E8 /* LetoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetoneViewController.m; sourceTree = "<group>"; };
 		47F41673177CC3F4004A36E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LetoneViewController_iPhone.xib; sourceTree = "<group>"; };
 		47F41676177CC3F4004A36E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LetoneViewController_iPad.xib; sourceTree = "<group>"; };
-		47F416D9177CC3F4004A36E8 /* libstatic-nss.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libstatic-nss.a"; path = "../build/Release-iphoneos/libstatic-nss.a"; sourceTree = "<group>"; };
+		47F416D9177CC3F4004A36E8 /* libstatic-nss.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libstatic-nss.a"; path = "../build/Release-iphoneos/libstatic-nss.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,7 +226,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: eric chang (9N543JE68E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: eric chang (9N543JE68E)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -240,6 +241,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "58BEF94A-1AA8-400A-B9E2-533A73BC2E0D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "58BEF94A-1AA8-400A-B9E2-533A73BC2E0D";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -253,7 +256,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: eric chang (9N543JE68E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: eric chang (9N543JE68E)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -261,6 +265,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "58BEF94A-1AA8-400A-B9E2-533A73BC2E0D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "58BEF94A-1AA8-400A-B9E2-533A73BC2E0D";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -308,6 +314,7 @@
 				47F4167C177CC3F4004A36E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
